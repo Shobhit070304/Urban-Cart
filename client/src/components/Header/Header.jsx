@@ -58,7 +58,7 @@ const Header = () => {
               }}
             >
               <CgShoppingCart />
-              {!cartCount && <span>{cartCount}</span>}
+              {cartCount && <span>{cartCount}</span>}
             </span>
           </div>
         </div>
